@@ -1,0 +1,3 @@
+npx sequelize-cli model:generate --name User --attributes firstName:string:notNull,lastName:string:notNull,email:string:notNull,id:integer:autoIncrement:primaryKey,isActive:boolean\ defaultValue:true
+
+npx sequelize-cli model:generate --name User --attributes firstName:string:allowNull=false,lastName:string
